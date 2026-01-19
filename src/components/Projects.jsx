@@ -60,7 +60,13 @@ const Projects = () => {
           <div className="project-info">
             <h1>My Portfolio</h1>
             <p>A clean, responsive front-end portfolio built using React to showcase my projects, skills, and achievements as a fresher Front-End Developer.</p>
-            <button>View Project Code</button>
+            <a
+                href="https://github.com/agam-pr/my_Portfolio.git"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <button>View Project Code</button>
+            </a>
           </div>
         </div>
   
